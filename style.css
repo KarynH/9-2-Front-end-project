@@ -1,25 +1,33 @@
 body {
-
+background-color: whitesmoke;
 }
 
 .header {
-display: grid;
-grid-template-columns: 390px 380px 270px 100px;
-
-gap: 5px;
-
-width: 89%;
-
+    display: grid;
+    grid-template-columns: 390px 380px 270px 100px;
+    justify-content: center;
+    margin: auto;
+    gap: 5px;
+    width: 89%;
 }
 
 a {
     text-decoration: none;
-    
+    color: black;
 }
 
- h3  {
+a:hover {
+    color: orange;
+    transition: 0.4s;
+}
 
-font-size: 20px;
+ .landing-title  {
+   
+    font-size: 20px;
+    text-align: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
+    
+    
 
 } 
 
@@ -34,6 +42,7 @@ form {
 }
 #submit-b {
     border-radius: 20px;
+   
 }
 
 .categories {
@@ -43,28 +52,39 @@ grid-column: 2;
 }
 
 ul {
+
   display: grid;
   grid-template-columns: 50px 50px 50px 50px;
   gap: 30px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- 
+ }
+
+.search {
+
+    height: 16px;
 }
 
 .cart {
+
     grid-column: 4;
 }
 
- div {
-    
+.previous-searches {
+
+    text-align: center;
 }
 
-.side{
-   float: right;
-  width:10%
 
- }
+
+.side{
+
+   float: right;
+  width:10%;
+  display: grid;
+  grid-template-rows: 30px 30px 200px 200px 200px;
+}
 
  .main {
-    width: 80%
-    
- }
+
+ width: 85%;
+}
