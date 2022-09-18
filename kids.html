@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alt | Kids</title>
+    <title>Alt | Men</title>
     <link rel="stylesheet" href="style.css"/>
-    <script src="main.js" defer></script>
-
+    <script src="kids.js" defer></script>
 </head>
 <body>
     <div class="header">
@@ -15,15 +14,15 @@
        Your favorite retail alternative</span></h3>
         
         <form>
-            <label for="search-bar">
-                <input type="text" name="search-bar" id="search-bar" method="get">
-              <a href="index.html"> <img class="search" name="search-link" src="thin.png" alt="shopping bag icon"> </a>
+            <label for="search-bar"></label>
+                <input type="text" name="search-bar" id="searchBar"  placeholder="search">
+            <label for="subit"></label>  
                 
-            </label>
+          
         </form>
     
     
-       
+       <p class="p1"></p>
     
         <div class="categories">
             <ul>
@@ -35,41 +34,47 @@
         </div>
     
         <div class="cart">
-     <a href="cart.html"><img src="shopping-bag.png" alt="shopping bag icon" height="30" class="cart"></a>
+            <p class="cart-count">s</p>
+    <button><a href="cart.html"><img src="shopping-bag.png" alt="shopping bag icon" height="30" class="cart"></a></button>
+     
      </div>
     </div>
     
     <div class="main">
-        <p>products.</p>
-    </div>
+        
+        <div id="cards">
+            <div class="card">
+        <img class="product-img" id="img" src="" onclick="changeImg()"/>
+        <p class="description"></p>
+        <p class="amount"> </p>
+        <a href=""> <p class="view"></p>view images</a>
+        <input type="button" class="add" value="add to cart">
+        </div>
+        </div>
+
+      
+   
+</div>
+
+
+   <!-- </div>
     
     <div class="side">
     <h3 class="previous-searches">PREVIOUS C.</h3>
     
-    </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    </div>--->
+
+<div class="bottom-screen-button">
+<input type="button" class="previous" value="previous">
+<input type="button" class="next" value="next">
+</div>
+  
+    <section>
     <a href="https://www.flaticon.com/free-icons/search" title="search icons">Search icons created by Taufik - Flaticon</a>
     <a href="https://www.flaticon.com/free-icons/shopping-bag" title="shopping bag icons">Shopping bag icons created by kmg design - Flaticon</a>
-    
+</section>
+
+
+
 </body>
 </html>
