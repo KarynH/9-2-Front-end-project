@@ -53,7 +53,13 @@ function search(products) {
 
 // function addtoCart(products) {
 //   const buttons = document.querySelectorAll("add");
-//   buttons.addEventListener()
+//   buttons.addEventListener("click", (e) => {
+
+//     const ul = document.createElement("li")
+//     ul.textContent = 
+// const cartList = document.querySelector("cartList")
+//     cartList
+//   })
 
 
 //console.log(e)
