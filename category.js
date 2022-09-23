@@ -44,9 +44,14 @@ function search(products) {
     //storing user's value
     const userValue = e.target.value;
     //filter through
+  
     const userSearch = products.results.filter((merchandise) => {
-      return merchandise.name.includes(userValue);
-    });
+      //wether the first character of the user input is upper/lower case..should still return the product correctly. 
+      //only works for first character to uppercase including remaining length of search value.
+      userValue[0].toUpperCase() || userValue[0].toLowerCase()
+      return merchandise.name.includes(userValue) 
+    }
+    );
     displayProducts({ results: userSearch });
   });
 }

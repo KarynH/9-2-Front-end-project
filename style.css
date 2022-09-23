@@ -48,11 +48,6 @@ form {
     grid-column: 3;
 }
 
-#submit-b {
-
-    border-radius: 20px;
-
-}
 
 .categories {
 
@@ -79,6 +74,15 @@ ul {
 
     grid-column: 4;
     
+}
+
+.cart-count {
+    background-color:rgb(202, 48, 48) ;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    color: black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: left;
 }
 
 .previous-searches {
@@ -156,3 +160,4 @@ justify-content: center;
     background-color: whitesmoke;
     border-bottom: solid 1px;
 }
+

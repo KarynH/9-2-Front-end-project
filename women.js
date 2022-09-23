@@ -17,6 +17,7 @@ fetch(
     // console.log(products.CatalogProducts.DefaultProductImage);
     displayProducts(products);
     search(products);
+   
   });
 function displayProducts(products) {
   const cards = document.getElementById("cards");
@@ -50,7 +51,13 @@ function search(products) {
   });
 }
 
-//   function addtoCart(products) {
-//     const buttons = document.querySelectorAll("add");
-//     buttons.addEventListener("click")
-//   }
+const a = document.querySelectorAll("button");
+const product = document.querySelector("#card");
+const cartText = document.querySelector("cart-count");
+
+let count = 0;
+
+a.addEventListener("click", () => {
+  count++
+  console.log(count)
+})
