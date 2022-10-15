@@ -1,5 +1,5 @@
 # 9-2-Front-end-project
-## Alt Shopping Outlet 🛍
+## [Alt Shopping Outlet](https://karynh.github.io/9-2-Front-end-project/) 🛍
 
 *e-commerce*</br></br>
 User Stories</br>
